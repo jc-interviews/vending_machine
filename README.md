@@ -91,6 +91,9 @@ In ```VendingMachine.purchase_product``` you might be wondering why I've handled
 
 ## Things I'd improve given more time
 
+## Products should have a unique ID
+Rather than referencing products by name (string) it'd be better if I'd added a unique ID; it'd be a bit safer than relying on the exact string (I've put a couple of things in like converting to downcase symbols to make it more reliable but a better option would be IDs)
+
 ### Extra validation
 There are some cases where we could do with some extra validation e.g. if we were to try to load initial products with a negative value, or a price of 0 (free) etc.
 
