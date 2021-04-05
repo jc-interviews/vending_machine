@@ -12,7 +12,7 @@ class CoinStack
     unless coin
       raise ArgumentError,
             'Value must be a valid denominator. Valid denominators: '\
-            "#{Constants::COIN_DENOMINATORS.join(' ')}. Value received: #{@value}"
+            "#{Constants::COIN_DENOMINATORS.join(' ')}. Value received: #{denominator}"
     end
     coin
   end
