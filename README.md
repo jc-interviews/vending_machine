@@ -91,7 +91,7 @@ In ```VendingMachine.purchase_product``` you might be wondering why I've handled
 
 ## Things I'd improve given more time
 
-## Products should have a unique ID
+### Products should have a unique ID
 Rather than referencing products by name (string) it'd be better if I'd added a unique ID; it'd be a bit safer than relying on the exact string (I've put a couple of things in like converting to downcase symbols to make it more reliable but a better option would be IDs)
 
 ### Extra validation
